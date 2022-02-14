@@ -4,8 +4,9 @@ const styles = StyleSheet.create({
   page: {
     backgroundColor: '#E7e7e7',
     flex: 1,
+    alignItems: 'center',
   },
-  container_cabecalho: {
+  containerCabecalho: {
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: 20,
@@ -24,10 +25,11 @@ const styles = StyleSheet.create({
     color: '#939393',
     marginBottom: 10,
   },
-  redes_sociais: {
+  redesSociais: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    width: '35%',
+    alignItems: 'center',
+    width: '40%',
     marginTop: 20,
   },
 });
